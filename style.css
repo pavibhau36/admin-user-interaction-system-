@@ -1,0 +1,218 @@
+<!-- 
+selector{
+attribute:value;
+}
+ -->
+ body
+ {
+ margin:0px;
+ }
+ #container
+ {
+ width:100%;
+ height:100%;
+ background-color:#abc123;
+ }
+ #header
+ {
+ width:100%;
+ height:20%;
+ background-color:#123456;
+ }
+ 
+ #menubar
+ {
+ width:100%;
+ height:10%;
+ background-color:#abcdef;
+ }
+ #leftpane
+ {
+ width:40%;
+ height:60%;
+ background-color:#123abc;
+ float:left;
+ }
+ 
+ #rightpane
+ {
+ width:60%;
+ height:60%;
+ background-color:#a1b2c3;
+ margin-left:40%;
+ overflow:scroll;
+ overflow-x:hidden;
+ }
+ #commonpane
+ {
+ width:100%;
+ height:60%;
+ background-color:#fffff;
+ }
+#tableuser tr:nth-child(even){
+	
+	background:#ccc}
+#tableuser tr:nth-child(odd){background:#ddd}
+ #footer
+ {
+ width:100%;
+ height:10%;
+ background-color:#000000;
+ }
+
+#menutable a
+ {
+     text-decoration:none;
+     border:3px solid #abcd12;
+     border-radius:10px;
+     border-left:5px solid black;
+     border-right:5px solid black;   
+     }
+#menutable a:hover
+ {
+     background-color:#098abc;
+     #font-size:20px;
+     }
+input[type=text]
+ {
+     width:250px;
+     border:3px solid #abcd12;
+     border-radius:10px;
+     border-left:5px solid black;
+     border-right:5px solid black;   
+     }
+input[type=password]
+ {
+     width:250px;
+     border:3px solid #abcd12;
+     border-radius:10px;
+     border-left:5px solid black;
+     border-right:5px solid black;   
+     }
+input[type=submit]
+ {
+     width:150px;
+     border:3px solid #abcd12;
+     border-radius:10px;
+     border-left:5px solid black;
+     border-right:5px solid black;   
+     }
+input[type=reset]
+ {
+     width:150px;
+     border:3px solid #abcd12;
+     border-radius:10px;
+     border-left:5px solid black;
+     border-right:5px solid black;   
+     }
+select
+ {
+     width:150px;
+     border:3px solid #abcd12;
+     border-radius:10px;
+     border-left:5px solid black;
+     border-right:5px solid black;   
+     }
+	 textarea
+ {
+     width:250px;
+     border:3px solid #abcd12;
+     border-radius:10px;
+     border-left:5px solid black;
+     border-right:5px solid black;   
+     }
+	 input[type=radio]
+ {
+     width:150px;
+     border:3px solid #abcd12;
+     border-radius:10px;
+     border-left:5px solid black;
+     border-right:5px solid black;   
+     }
+	 input[type=checkbox]
+ {
+     width:150px;
+     border:3px solid #abcd12;
+     border-radius:10px;
+     border-left:5px solid black;
+     border-right:5px solid black;   
+     }
+	 input[type=file]
+ {
+     width:250px;
+     border:3px solid #abcd12;
+     border-radius:10px;
+     border-left:5px solid black;
+     border-right:5px solid black;   
+     }
+	 
+	 
+/* For DropDown Menu  */	 
+ul
+	{
+		list-style-type:none;
+		margin:0px;
+		padding:15px 10px 15px 10px;
+		overflow:hidden;
+		background-color:white;
+	}
+	
+	
+li
+{
+	float:left;
+	color:white;
+}
+	
+	li a, .drpbtn
+	{
+		display:inline-block;
+		text-align:center;
+		padding:5px 10px 5px 10px;
+		text-decoration:none;
+	}
+	
+	
+	li a:hover, .dropdown:hover .drpbtn
+	{
+		background-color:green;
+	}
+	
+	 
+	
+	li .dropdown
+	{
+		
+		display:inline-block;
+	}
+	
+	.dropdown-content
+	{
+		display:none;
+		position:absolute;
+		background-color:#abc123;
+		min-width:250px;
+		box-shadow:10px 8px 16px 0px rgba(0,0,0,0.2);
+		z-index:0;
+	}
+	.dropdown-content a
+	{
+		color:black;
+		padding:12px 16px;
+		text-decoration:none;
+		display:block;
+		text-align:left;
+	}
+	
+	.dropdown-content a:hover:
+	{
+		background-color:#abc123;
+		
+	}
+	
+	.dropdown:hover .dropdown-content
+	{
+		display:block;
+	}
+	
+	 
